@@ -1,16 +1,41 @@
-# React + Vite
+# Monlau | M4 R1 - Tarea 6 - Bootstrap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido/a a mi actividad de M4 R1 de Monlau sobre una cartelera con diferentes películas!
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalación
 
-## React Compiler
+1 - Clona el repositorio de GitHub en tu máquina local:
+```bash
+git clone https://github.com/IvanHuesca-Monlau/Tarea-6-Bootstrap
+```
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+2 - Instala las dependencias necesarias para el proyecto:
+```bash
+npm install
+```
+## Uso del proyecto
 
-## Expanding the ESLint configuration
+1 - Para iniciar el proyecto en modo desarrollo, usa el siguiente comando. Esto arrancará un servidor local donde podrás ver los cambios en tiempo real:
+```bash
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2 - Si quieres compilar el proyecto para producción, utiliza el siguiente comando. Esto generará una carpeta llamada ``dist`` con los archivos listos para ser desplegados:
+```bash
+npm run build
+```
+## Tecnologías usadas
+
+- __Vite__: He empleado Vite como motor de desarrollo y optimización, aprovechando su rapidez en la compilación y recarga en tiempo real.
+- __React__: He utilizado React para la creación y gestión de los componentes del frontend, asegurando una interfaz dinámica y modular.
+- __Tailwind CSS__: He usado Tailwind CSS para todo lo relacionado con el diseño y el estilo.
+
+## Demo
+
+[https://m4-r1-eco-web.vercel.app/](https://m4-r1-eco-web.vercel.app/)
+## Licencia
+
+Este proyecto está bajo la **Licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0)**. Puedes usar, modificar y distribuir el código siempre que se te otorgue el crédito adecuado.
+
+Puedes ver más detalles en [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es).
